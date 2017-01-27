@@ -32,3 +32,5 @@ class InlineFileWebpackPlugin {
 		});
 	}
 }
+
+module.exports = InlineFileWebpackPlugin;
