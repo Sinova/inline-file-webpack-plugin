@@ -1,0 +1,21 @@
+{
+  "name": "inline-file-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Inject file contents into Webpack's output",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sinova/inline-file-webpack-plugin"
+  },
+  "keywords": [
+    "inline",
+    "file",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Samuel Hodge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sinova/inline-file-webpack-plugin/issues"
+  }
+}
