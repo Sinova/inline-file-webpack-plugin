@@ -39,7 +39,7 @@ This HTML file could possibly be generated using the [HTML Webpack Plugin](https
 	<body>
 		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<defs>
-				[[[index.svg]]]
+				[[[icons.svg]]]
 			</defs>
 		</svg>
 	</body>
