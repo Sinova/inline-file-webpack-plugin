@@ -20,6 +20,11 @@ module.exports = {
 			root_path : './build'             // Optional - The root directory from which inlined paths are resolved (defaults to the directory of the input file)
 			prefix    : '[[[',                // Optional - The prefix for inlined paths (defaults to '[[[')
 			suffix    : ']]]',                // Optional - The suffix for inlined paths (defaults to ']]]')
+
+			callbacks : { // Optional - A map of callbacks based on filepath
+				'icons.svg'    : contents => contents.replace(/foo/g, 'bar'),
+				'../other.css' : contents => contents.replace(/bold/g, 'normal'),
+			},
 		}),
 	],
 };
