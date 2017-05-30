@@ -1,6 +1,6 @@
 {
   "name": "inline-file-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Inject file contents into Webpack's output",
   "main": "main.js",
   "repository": {
